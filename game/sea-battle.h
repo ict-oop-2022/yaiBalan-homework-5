@@ -20,4 +20,8 @@ public:
   static std::string get_player_name(turn_t turn);
 
 private:
+  std::shared_ptr<player_interface_t> _player1;
+  field_t _field1;
+  std::shared_ptr<player_interface_t> _player2;
+  field_t _field2;
 };
